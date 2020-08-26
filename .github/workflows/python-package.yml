@@ -16,14 +16,26 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
+    - name: Set up Python 
       uses: actions/setup-python@v2
       with:
-        python-version: ${{ matrix.python-version }}
-    - name: Install dependencies and Update Data
+        python-version: 3.8
+        
+    - name: Install Requirements
+      run: pip install -r requirements.txt
+
+    - name: Execute Python script
       run: |
-        python -m pip install --upgrade pip
-        pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         python scrape.py
+        
+    - name: setup git config
+      run: |
+          git config user.name ${{ secrets.USERNAME }}
+          git config user.email ${{ secrets.EMAIL }}
+
+    - name: commit changes
+      run: |
+        chmod +x ./scripts/commit.sh
+        ./scripts/commit.sh
+
     
