@@ -16,6 +16,8 @@ def rows_for_csv(L):
                     k=""
                 if f>1:
                     L1.append(0)
+            if len(L1) == 17:
+                break
         L2.append(L1)
     return L2
 
