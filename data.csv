@@ -206,7 +206,7 @@ SL.NO,COUNTRY,TOTAL CASES,NEW CASES,TOTAL DEATHS,NEW DEATHS,TOTAL RECOVERED,NEW 
 205,St. Barth,"2,363",0,6 ,0,N/A,N/A,N/A,0,"238,134",605,"56,491","5,692,936","9,923 ",North America
 206,Anguilla,"1,942",0,6 ,0,"1,789",0,147,0,"127,696",395,"51,382","3,378,617","15,208 ",North America
 207,Diamond Princess,712,0,13 ,0,699,0,0,0,0,0,0,0, ,0
-208,Wallis and Futuna,454,0,7 ,0,438,0,9,0,"41,507",640,"20,508","1,874,931","10,938 ",Australia/Oceania
+208,Wallis and Futuna,454,0,7  ,0,438,0,9,0,"41,507",640,"20,508","1,874,931","10,938 ",Australia/Oceania
 209,Saint Pierre Miquelon,316,0, ,0,156,0,160,0,"54,947",0,"15,378","2,673,970","5,751 ",North America
 210,Montserrat,118,0,1 ,0,51,0,66,0,"23,614",200,"3,785","757,454","4,997 ",North America
 211,Falkland Islands,85,0, ,0,N/A,N/A,N/A,0,"23,384",0,"8,528","2,346,080","3,635 ",South America
