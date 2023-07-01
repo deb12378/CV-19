@@ -212,5 +212,5 @@ SL.NO,COUNTRY,TOTAL CASES,NEW CASES,TOTAL DEATHS,NEW DEATHS,TOTAL RECOVERED,NEW 
 211,Turks and Caicos,"6,612",0,38                                ,0,"6,556",0,18,4,"166,377",956,"613,522","15,438,011","39,741 ",North America
 212,Saint Kitts and Nevis,"6,607",0,48                                ,0,"6,558",0,1,0,"122,645",891,"126,954","2,356,630","53,871 ",North America
 213,Sao Tome and Principe,"6,588",0,80                                ,0,"6,508",0,0,0,"28,935",351,"29,036","127,530","227,679 ",Africa
-214,Palau,"6,018",0,9                                ,0,"6,004",0,5,0,"330,061",494,"69,906","3,834,037","18,233 ",Australia/Oceania
+214,Palau,"6,018",0,9                                ,0,"6,015",+11,-6,0,"330,061",494,"69,906","3,834,037","18,233 ",Australia/Oceania
 215,St. Barth,"5,507",0,6                                ,0,N/A,N/A,N/A,0,"553,746",603,"78,646","7,908,095","9,945 ",North America
